@@ -14,25 +14,43 @@ According to the paper, "border of damaged region is searched and the pixel with
 ## IEEE format paper of the project
 The paper with extended description and examples can be found at this [link](https://github.com/aidarjpg/text-remover-from-image/blob/main/ROBT310_paper.pdf).
 
-removed_yammy.png
-yammy.png
-
 ## Results
 <table>
   <tr>
     <td align="center">
       <a href="#">
-        <img src="carwashtext.jpg.png" width="500px;"/><br>
+        <img src="carwashtext.jpg" width="500px;"/><br>
         <sub>
-          <b>100 iterations</b>
+          <b>Before</b>
         </sub>
       </a>
     </td>
     <td align="center">
       <a href="#">
-        <img src="removed_car_wash.png.png" width="500px;"/><br>
+        <img src="removed_car_wash.png" width="500px;"/><br>
         <sub>
-          <b>1000 iterations</b>
+          <b>After</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="yammy.png" width="500px;"/><br>
+        <sub>
+          <b>Before</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="removed_yammy.png" width="500px;"/><br>
+        <sub>
+          <b>After</b>
         </sub>
       </a>
     </td>
