@@ -14,7 +14,30 @@ According to the paper, "border of damaged region is searched and the pixel with
 ## IEEE format paper of the project
 The paper with extended description and examples can be found at this [link](https://github.com/aidarjpg/text-remover-from-image/blob/main/ROBT310_paper.pdf).
 
+removed_yammy.png
+yammy.png
+
 ## Results
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="carwashtext.jpg.png" width="500px;"/><br>
+        <sub>
+          <b>100 iterations</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="removed_car_wash.png.png" width="500px;"/><br>
+        <sub>
+          <b>1000 iterations</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## References
 1. P. D. Wagh and D. R. Patil, ”Text detection and removal from image using inpainting with smoothing,” 2015 International Conference on Pervasive Computing (ICPC), 2015, pp. 1-4, doi: 10.1109/PERVA- SIVE.2015.7087154.
