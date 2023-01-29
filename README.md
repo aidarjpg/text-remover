@@ -1,5 +1,5 @@
 ## About
-The program removes the text from the image using an technique called inpainting.
+The program removes the text from the image using technique called inpainting.
 
 ## Procedures
 `Noise reduction.` Before applying text recognition algorithms, the image has to be pre-processed from different types of noises and disturbances and adjust the contrast. First, the removal of the noise, in particular salt-and-pepper noise, is an important step as it facilitates and increases the accuracy of the text detection algorithm. Salt and pepper noise refers to a wide variety of processes that result in the same basic image degradation: only a few pixels are noisy, but they are very noisy. The effect is similar to sprinkling white and black dots - akin to salt and pepper - on the image. To do so, there exist two methods - median filter and morphological filter. Since the scope of our course covers the first, we decided to implement the median filter. Furthermore, the program applies `histogram equalization` on the image to increase the contrast between objects, thereby making the text, in particular, stand out.
